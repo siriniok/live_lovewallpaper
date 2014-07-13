@@ -1,0 +1,29 @@
+= Dynamic Lovewallpapers
+
+This is a little script that copies your lovewallpaper.jpg created by 
+Ubuntu Tweak to Ubuntu wallpapers folder and create live wallpapers slideshow.
+You can automatize this process with incrond or other such tool and have fun!
+
+You need to add this lines to your 
+/usr/share/gnome-background-properties/ubuntu-wallpapers.xml:
+
+    <wallpaper>
+      <name>Love Wallpaper HD</name>
+      <filename>/usr/share/backgrounds/contest/lovewallpaper.xml</filename>
+      <options>zoom</options>
+    </wallpaper>
+
+It will be fixed in the next version.
+
+Works only with root privileges.
+
+== Note on Patches/Pull Requests
+ 
+* Fork the project.
+* Make your feature addition or bug fix.
+* Commit.
+* Send me a pull request.
+
+== Copyright
+
+Copyright (c) 2014 Vladyslav Siriniok. See LICENSE for details.
